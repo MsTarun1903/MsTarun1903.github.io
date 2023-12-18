@@ -1,0 +1,105 @@
+/* START  navigation module CSS here   */
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+.navbar-brand img{
+   height:2rem;
+   margin-right:10px;
+   position:relative;
+   bottom:5px;
+
+}
+
+/* END  navigation module CSS here   */
+
+/* START CAROUSEL MODULES CSS */
+
+#carousel img
+{
+	height:550px;
+}
+
+/* END CAROUSEL MODULES CSS*/
+
+/* START THREE PHOTO MODULES CSS*/
+
+#threePhotoSection img
+{
+	width:200px;
+	height:220px;
+	border-radius:50%;
+	margin:10px;
+}
+#threePhotoSection img:hover
+{
+	width:160px;
+	height:230px;
+	border-radius:20%;
+  transition: all 0.1 sec ease-in-out;
+	opacity:0.7;
+}
+#threePhotoSection h3
+{
+margin-top:50px;
+margin-bottom:50px;
+}
+#threePhotoSection
+{
+	margin-bottom:30px;
+}
+.card{
+	background-color:#87C4FF;
+}
+
+/* END OF THREE PHOTO MODULES CSS*/
+
+/* START OF PARAGRAPH MODULES CSS*/
+
+#moreAboutUs h3 
+{
+	padding:25px;
+	padding-bottom:40px;
+}
+
+#moreAboutUs  blockquote
+{
+	padding:55px;
+	
+}
+
+/* END OF PARAGRAPH MODULES CSS*/
+
+/* START OF TABLE MODULE CSS*/
+
+/* END OF TABLE MODULE CSS*/
+
+/* START OF FORM MODULES CSS*/
+/* END OF FORM MODULES CSS*/
+
+/* START OF BUTTON CSS*/
+/* END OF BUTTON CSS*/
+
+ /* START OF FOOTER CSS*/
+ /* END OF FOOTER CSS*/.navbar {
+	padding: .8rem;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .navbar {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
